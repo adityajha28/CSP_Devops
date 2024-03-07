@@ -1,0 +1,33 @@
+services:
+ 
+  backend:
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    depends_on:
+      - pgdb
+
+
+  frontend:
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+
+
+  pgdb:
+    image: postgres:latest
+    container_name: pgdb
+    environment:
+      POSTGRES_DB: Customer_Success
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: aditya
+    expose:
+      - 5432
+    ports:
+      - "5432:5432"
+
+  

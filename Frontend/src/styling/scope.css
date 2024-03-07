@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .scope-and-stack-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  .stack-wrapper,
+  .scope-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .stack-wrapper .dropdown {
+    width: 50%;
+  }
+  
+  .scope-wrapper {
+    width: 100%;
+  }
+  
+  .scope-wrapper textarea {
+    width: 50%;
+    padding: 10px;
+    height: 4.2rem;
+    resize: none;
+  }
+  
+  .save-button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+  }
+  
+  .save-button:hover {
+    background-color: #636668;
+  }
+  

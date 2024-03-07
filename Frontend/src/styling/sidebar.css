@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar-wrapper {
+    background-color: #fff;
+    height: 90vh;
+    width: 100%;
+  }
+  
+  .sidebar-menu-box {
+    padding: 20px;
+  }
+  

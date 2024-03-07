@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: large;
+}
+
+.overview-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.overview-section-wrapper {
+  width: 80%;
+  padding: 10px;
+
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.overview_section_item {
+  width: 90%;
+  height: 40%;
+  padding: 15px;
+}
+
+.textarea-field {
+  height: 100%;
+}
+
+.budget-div {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.dropdown-div,
+.dropdown-input-div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+}
+
+.dropdown-input-div input {
+  padding: 7px;
+  width: 100%;
+}
+
+.dropdown-div .dropdown {
+  width: 100%;
+}
+
+.timeline-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.timeline-div input {
+  width: 100%;
+  padding: 7px;
+}
+
+.overview-div textarea {
+  width: 100%;
+  padding: 10px;
+  height: 4.2rem;
+  resize: none;
+}
+
+.save-button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+}
+
+.save-button {
+  border: 0.5px solid black;
+  background-color: #9fa2a5;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.save-button:hover {
+  background-color: #636668;
+}
