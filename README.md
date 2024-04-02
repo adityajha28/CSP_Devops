@@ -106,7 +106,9 @@ This command will build the images and start the containers in detached mode.
 ![Running](https://github.com/adityajha28/CSP_Devops/assets/127980079/a84d08b6-b90b-44ed-8a42-8f76eee663b2)
 ![Docker-Desktop](https://github.com/adityajha28/CSP_Devops/assets/127980079/dfd7dc15-8308-4388-af8a-38a5884da688)
 
-
+## Running Application
+![Screenshot (83)](https://github.com/adityajha28/git-assignment/assets/127980079/8606c3a3-b521-461a-9466-7eddbf93e442)
+![Screenshot (81)](https://github.com/adityajha28/git-assignment/assets/127980079/181f7bd3-1cd8-4698-a134-f70c33773060)
 
 The application can be accessed at:
 - Backend: [http://localhost:8081](http://localhost:8081)
